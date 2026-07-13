@@ -52,7 +52,7 @@ cout<< "The matrix is: "<<endl;
             cout<< arr[i][j]<<" ";
         }cout<<endl;
     }
-    //cout<< "Calculating transpose of the matrix..."<<endl;
+    //Calculating transpose of the matrix...
     for(int i =0; i<n;i++){
         for(int j=0; j<n;j++){
             sol[i][j] = arr[j][i];
